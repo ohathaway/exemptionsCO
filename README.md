@@ -40,6 +40,7 @@ Start Bootstrap is an open source library of free Bootstrap templates and themes
 Copyright 2018 [The Law Offices of Owen Hathaway](https://ohlawcolorado.com), LLC d/b/a [Clean Slate Colorado](https://cleanslatecolorado.com).
 
 
+
 **Original Theme attribution**
 
 Copyright 2013-2018 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-resume/blob/gh-pages/LICENSE) license.
