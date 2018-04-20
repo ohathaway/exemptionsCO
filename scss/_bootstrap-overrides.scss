@@ -1,16 +1,20 @@
 .bg-primary {
-  background-color: $primary !important;
+  background-color: $yellow-co !important;
 }
 
 .text-primary {
-  color: $primary !important;
+  color: $blue-co !important;
 }
 
 a {
-  color: $primary;
+  color: $blue-co;
   &:hover,
   &:focus,
   &:active {
-    color: darken($primary, 15%);
+    color: darken($blue-co, 15%);
   }
+}
+
+.navbar-dark, .navbar-nav, .nav-link {
+  color: $blue-co;
 }
