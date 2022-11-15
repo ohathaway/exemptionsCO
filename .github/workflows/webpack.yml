@@ -36,17 +36,13 @@ jobs:
     - uses: actions/download-artifact@v3
       with:
         name: dist
-    - uses: osiegmar/s3-publish@v0
+    - uses: jakejarvis/s3-sync-action@master
       with:
         args: >
-          --bucket=exemptions-co
-          --compare-cache-policy
-          --delete-orphaned
-          --exclude="**/.gitkeep"
-          --default-acl="public-read"
-          --default-cache-policy="public, max-age=604800, immutable"
-          dist
+          args: --acl public-read --follow-symlinks --delete
       env:
+        AWS_S3_BUCKET: exemptions-co
+        SOURCE_DIR: 'dist'
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         AWS_REGION: 'us-west-2'
