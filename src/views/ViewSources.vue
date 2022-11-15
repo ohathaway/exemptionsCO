@@ -7,7 +7,10 @@
       Sources
     </h2>
     <ul class="fa-ul mb-0">
-      <SourceCitation v-for="source in sources" :source="source" />
+      <SourceCitation
+        v-for="source in sources"
+        :source="source"
+      />
     </ul>
   </section>
 </template>

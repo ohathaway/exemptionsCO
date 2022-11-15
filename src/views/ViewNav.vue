@@ -50,9 +50,9 @@
         <li class="nav-item">
           <a
             class="nav-link js-scroll-trigger"
-             href="#sources"
+            href="#sources"
           >Sources
-           </a>
+          </a>
         </li>
       </ul>
     </div>

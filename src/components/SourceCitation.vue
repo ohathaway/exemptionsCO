@@ -1,7 +1,7 @@
 <template>
   <li>
-    <font-awesome-icon icon="fa-solid fa-scale-balanced" />
-    &nbsp;&nbsp;<span v-html="source"></span>
+    <font-awesome-icon icon="fa-solid fa-scale-balanced" class="primary"/>
+    &nbsp;&nbsp;<span v-html="source" />
   </li>
 </template>
 
