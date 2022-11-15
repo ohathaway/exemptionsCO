@@ -1,0 +1,337 @@
+Updated: November 2022
+Sections:
+  - id: homestead
+    name: Homestead
+    laws:
+      - name: Homestead - Standard
+        limit: $250,000
+        description: Colorado provides a standard homestead exemption of $250,000 provided the property is actually occupied by the debtor/owner or her family. This amount may not be doubled for spouses.
+        citations:
+          - C.R.S. &sect; &sect; 38-41-201, 38-41-202
+          - In re Howe, Bankr.Colo. No. 81 B 03865 C
+      - name: Homestead - Mobile Homes
+        limit: $250,000 or $350,000
+        description: Colorado recognizes mobile homes, manufactured homes, trailers, and trailer coaches as "homes" for the purpose of the homestead exemption with all the rights and limitations of a traditional home. Mobile homes and manufactured homes must have been purchased after January 1, 1983 to qualify; trailers and trailer coaches must have been purchased after July 1, 2000.
+        citations:
+          - C.R.S. &sect; 38-41-201.6
+      - name: Homestead - Disabled or Elderly
+        limit: $350,000
+        description: >-
+          <p>Colorado extends the homestead exemption to $350,000 for the following debtors:</p>
+          <ul>
+            <li>elderly owners</li>
+            <li>disabled owners</li>
+            <li>an owner who lives with an elderly spouse</li>
+            <li>an owner who lives with a disabled spouse</li>
+            <li>an owner who lives with an elderly dependent</li>
+            <li>an owner who lives with a disabled dependent</li>
+          </ul>
+          <p class="fst-italic">for this exemption, "elderly" means 60 years or older</p>
+          <p class="fst-italic">for this exemption, "disabled" is a multi-factor test, which means you'll have to prove it and perhaps make an argument.</p>
+        citations:
+          - C.R.S. &sect; 38-41-201(1)(b)
+      - name: Homestead - Surviving Spouse or children
+        limit: same as the deceased owner
+        description: Colorado permits the surviving spouse or minor children to assert a deceased owner's homestead exemption.
+        citations:
+          - C.R.S. &sect; 38-41-204
+      - name: Burial Plot
+        limit: Unlimited
+        description: >-
+          <p>Colorado provides full exemption for burial plots for the debtor and each dependent.</p>
+        citations:
+          - C.R.S. &sect; 13-54-102(1)(d)
+  - id: wages
+    name: Wages
+    laws:
+      - name: Wages
+        limit: 80% exempt - 20% subject to levy
+        description: >-
+          <p>Colorado exempts 80% of wages. This means that the bankruptcy trustee can take up to 20% of pre-petition wages, even if you were paid the wages after you file. This makes the date of your filing very important to figuring out how this exemption applies.</p>
+          <p>If your exempt wages are less than 40 hours of the current minimum wage, you can exempt up to that amount regardless of the 20% rule. So for an easy example, if you make $12.32 per hour (current Colorado minimum wage) and work 40 hours a week, your entire paycheck could be exempt. This gets complicated based on filing dates, lookback periods, and other things, so make sure to get an attorney's help with this.</p>
+          <p>Oh yeah, "wages" means money you earn for working. If your income comes from other sources, there may be other (and better) exemptions that apply. Keep reading &hellip;</p>
+        citations:
+          - C.R.S. &sect; 13-54-104
+  - id: insurance
+    name: Insurance
+    description: >-
+      <p>Ok, insurance is complicated all by itself. Try to figure out how it works in bankruptcy? Oh boy! Here are the rules in Colorado. If you don't get it, it may not apply to you. Definitely ask for help if you think it might.</p>
+    laws:
+      - name: Life Insurance - Group Policies
+        limit: Unlimited
+        description: >-
+          <p>Colorado exempts 100% of the debtor's ownership interest in a group life insurance policy. These are the types of policies folks get as a benefit from their employer. They usually aren't worth anything unless the person dies, so this exemption is rarely used. It does cover the proceeds of the policy if it does pay a death benefit though, so beneficiaries don't have to use the insurance money to pay off any debt.</p>
+        citations:
+          - C.R.S. &sect; 10-7-205
+      - name: Life Insurance - Contractual Restrictions
+        limit: Unlimited
+        description: >-
+          <p>Colorado allows a full exemption for an insurance contract, including those for annuities, to restrict the rights of anyone other than the policy owner to take the value or benefits of the policy. This is highly specific to the language in the contract and may or may not apply depending on the how the specific policy contract is written.</p>
+        citations:
+          - C.R.S. &sect; 10-7-106
+      - name: Life Insurance - Cash Surrender Value
+        limit: $250,000 if owned for 4 years
+        description: >-
+          <p>Colorado allows an exemption of $250,000 for the cash surrender value of a life insurance policy, but only if the policy has been owned for more than 4 years. This exemption does not cover the amount of the cash value that is a result of contributions to the insurance policy over and above the premium that have been made in the past 4 years.</p>
+          <p>In other words, if you've paid only the required premiums, then you're covered if you've owned the policy for 4 years. If you've paid extra into the policy, then you'll need to do some math to figure out how much this exemption will cover.</p>
+          <p>This one doesn't make sense to a lot of people, and that's okay. Some people use life insurance as an investment rather than as a way to provide death benefits. If you aren't investing in life insurance, this doesn't apply to you. If you own a whole life, universal life, or other similar policy, figuring this exemption will take some work.</p>
+        citations:
+          - C.R.S. &sect; 13-54-102(1)(l)(I)(A)
+      - name: Insurance Proceeds from Loss
+        limit: Unlimited &hellip; sort of
+        description: >-
+          <p>Colorado allows an exemption of the value of insurance payments for loss, destruction or damage to personal property that is also exempt.</p>
+          <p>This exemption is limited to the exemption that the property would have had if it hadn't been lost.</p>
+        citations:
+          - C.R.S. &sect; 13-54-102(1)(m)
+      - name: Insurance Proceeds from Loss of Homestead
+        limit: Unlimited &hellip; sort of
+        description: >-
+          <p>Colorado allows an exemption of the value of insurance payments for loss, destruction or damage to real property that is also exempt.</p>
+          <p>This exemption is limited to the exemption that the property would have had if it were sold.</p>
+        citations:
+          - C.R.S. &sect; 38-41-209
+      - name: Accident or Sickness (Disability) Insurance Proceeds
+        limit: $200 per month or Unlimited
+        description: >-
+          <p>Colorado allows an exemption of $200 of monthly payments for disability insurance benefits.</p>
+          <p>If you sue to recover for the accident and get a settlement or win, then the proceeds of the suit are 100% exempt.</p>
+        citations:
+          - C.R.S. &sect; 10-16-212
+  - id: auto
+    name: Automobile
+    laws:
+      - name: Motor Vehicles
+        limit: $15,000
+        description: >-
+          <p>Colorado allows an exemption of $15,000 to apply towards up to two motor vehicles.</p>
+          <p>Joint debtors are allowed to double this exemption.</p>
+          <p>This exemption does not apply to snowmobiles, ATVs, golf carts, boats or other watercraft, travel trailers, tent trailers, or motor homes. Although the homestead exemption might apply if you're living in the trailer or motor home.</p>
+        citations:
+          - C.R.S. &sect; 13-54-102(1)(j)(I)
+      - name: Motor Vehicles - Elderly or Disabled
+        limit: $25,000
+        description: >-
+          <p>Colorado allows an exemption of $25,000 to apply towards up to two motor vehicles if the debtor is elderly or disabled. This exemption also applies if the debtor has an elderly or disabled spouse or dependent.</p>
+          <p>Joint debtors are allowed to double this exemption.</p>
+          <p>This exemption does not apply to snowmobiles, ATVs, golf carts, boats or other watercraft, travel trailers, tent trailers, or motor homes. Although the homestead exemption might apply if you're living in the trailer or motor home.</p>
+        citations:
+          - C.R.S. &sect; 13-54-102(1)(j)(II)
+  - id: property
+    name: Personal Property
+    # description: Personal property refers to things you own and can touch
+    laws:
+      - name: Money in a Depository Account
+        limit: $2,500
+        description: >-
+          <p>In 2022, Colorado added an exemption for cash held in a depository account (i.e. a bank).</p>
+      - name: Clothing
+        limit: $2,000
+        description: >-
+          <p>Colorado provides an exemption of $2,000 for "necessary" clothes owned by the debtor and each dependent.</p>
+        citations:
+          - C.R.S. &sect; 13-54-102(1)(a)
+      - name: Jewelry
+        limit: $2,500
+        description: >-
+          <p>Colorado provides an exemption of $2,500 for watches, jewelry and "articles of adornment."</p>
+        citations:
+          - C.R.S. &sect; 13-54-102(1)(b)
+      - name: Household Goods and Furnishings
+        limit: $6,000
+        description: >-
+          <p>Colorado provides an exemption of $6,000 for household goods. This exemption will cover things like your furniture, kitchen equipment, and the like.</p>
+        citations:
+          - C.R.S. &sect; 13-54-102(1)(e)
+      - name: Books, Antiques, Art, Collectibles
+        limit: $2,000
+        description: >-
+          <p>Colorado provides an exemption of $2,000 for the debtor's books, family pictures, and school books</p>
+        citations:
+          - C.R.S. &sect; 13-54-102(1)(c)
+      - name: Firearms and Hunting or Fishing Equipment
+        limit: $1,000
+        description: >-
+          <p>Colorado added an exemption for firearms in 2022. This is different than the military equipment exemption in that it applies to everyone who owns a firearm for personal safety.</p>
+          <p>This exemption also covers hunting and fishing equipment too.</p>
+        citations:
+          - C.R.S. &sect; 13-54-102(1)(x)
+      - name: Food and Fuel
+        limit: "$600"
+        description: >-
+          <p>Colorado provides an exemption of $600 for the debtor's food and fuel on hand. Fuel could be gas in the car, but could also be propane, firewood, heating oil, etc.</p>
+        citations:
+          - C.R.S. &sect; 13-54-102(1)(f)
+      - name: Health Aids
+        limit: unlimited
+        description: >-
+          <p>Colorado provides a full exemption for all professionally prescribed health aids owned by the debtor or a dependent.</p>
+        citations:
+          - C.R.S. &sect; 13-54-102(1)(p)
+      - name: Security Deposits
+        limit: Unlimited
+        description: >-
+          <p>Colorado provides a full exemption for security deposits. Debtors may apply this exemption to a security deposit on a rented apartment or home as well as security deposits required by utility companies</p>
+        citatations:
+          - C.R.S. &sect; 13-54-102(1)(r)
+      - name: Property judgement against debtor for failure to pay tax on pension benefits
+        limit: Unlimited
+        description: >-
+          <p>Colorado provides an exemption for the benefit of states that have secured a judgement against the debtor related to unpaid income tax on retirement benefits. This ends up looking a little like a priority for state income taxes owed over other creditors' claims. In other words, it doesn't help you, it helps the state.</p>
+        citations:
+          - C.R.S. &sect; 13-54-102(1)(t)
+  - id: benefits
+    name: Public Benefits
+    laws:
+      - name: Veteran's Benefits
+        limit: Unlimited
+        description: >-
+          <p>Colorado provides a full exemption for pension, compensation, and allowances received by veterans. Widows and children of deceased veterans may also use this exemption.</p>
+          <p>There a few exceptions to this exemption for things like fraud, restitution, and child support.</p>
+        citations:
+          - C.R.S. &sect; 13-54-102(1)(h)
+      - name: Earned Income Tax Credit (EIC or EITC) and Additional Child Credit
+        limit: Unlimited
+        description: >-
+          <p>Colorado provides a full exemption for the federal Earned Income Tax Credit and the federal Additional Child Tax Credit.</p>
+          <p>There a few exceptions to this exemption for things like fraud, restitution, and child support.</p>
+        citations:
+          - C.R.S. &sect; 13-54-102(1)(o)
+      - name: Disability Benefits
+        limit: $5,000 per month
+        description: >-
+          <p>Colorado provides a full exemption for disability benefits (not insurance) up to a limit of $4,000 per month. Disability payments above $5,000 are handled just like <a href="#wages">wages</a>.</p>
+          <p>There a few exceptions to this exemption for things like fraud, restitution, and child support.</p>
+        citations:
+          - C.R.S. &sect; 13-54-102(1)(v)
+      - name: Workers' Compensation
+        limit: Unlimited
+        description: >-
+          <p>Ok, just like the rest of the workers' compensation program, this one is complicated. If you're getting or trying to get workers' comp., then you should definitely talk with an attorney to see how this one works. Most of these exemptions have a paragraph or two in the Colorado code. This one has 8 long paragraphs.</p>
+          <p>The way to summarize this: you get full exemption, if you and your employer qualify.</p>
+        citations:
+          - C.R.S. &sect; 8-42-124
+      - name: Public Assistance
+        limit: Unlimited
+        description: >-
+          <p>Colorado provides a public assistance program for folks whose income falls under certain levels or have a qualifying disability. Payments of benefits under this program are fully exempt.</p>
+        citations:
+          - C.R.S. &sect; 26-2-131
+      - name: Unemployment Benefits
+        limit: Unlimited
+        description: >-
+          <p>Colorado provides a full exemption for benefits received under the state's unemployment program</p>
+          <p>The child support exception applies to this exemption.</p>
+        citations:
+          - C.R.S. &sect; 8-80-103
+      - name: Benefits from Crime Victims' Compensation Fund
+        limit: Unlimited
+        description: >-
+          <p>Colorado provides a program to reimburse victims of certain crimes for their loss. The benefits paid out of this program are fully exempt.</p>
+        citations:
+          - C.R.S. &sect; 24-4.1-114
+          - C.R.S. &sect; 13-54-102(1)(q)
+          - C.R.S. &sect; 13-54-102(1)(q)
+      - name: Personal Injury Settlement or Reimbursement
+        limit: Unlimited &hellip; sort of
+        description: >-
+          <p>Colorado provides a full exemption for personal injury settlements and damages awards.</p>
+          <p>This exemption is reduced by any amounts that the debtor owes for treatment for the injury or for collection of the reimbursement (i.e. attorney's fees). Because this exception to the exemption (see what I did there) can be tricky to calculate, you should get help from an attorney if this one applies to you.</p>
+        citations:
+          - C.R.S &sect; 13-54-102(1)(n)
+      - name: Fraternal Society Benefits
+        limit: Unlimited
+        description: >-
+          <p>Colorado provides a full exemption for benefits a debtor receives as a member of a fraternal society. The I.R.S has specific rules for how an organization must organize itself in order to qualify as a fraternal society. This exemption is rarely used these days, but it remains on the books.</p>
+        citiations:
+          - C.R.S &sect; 10-14-403
+      - name: Stimulus Payments
+        limit: Unlimited
+        description: >-
+          <p>While many of the laws that provide for economic stimulus cash payments specifically exempt those payments from levy or garnishment, Colorado went the extra mile and added a global exemption to the state's statutes.</p>
+        citations:
+          - C.R.S &sect; 13-54-102(1)(y)
+  - id: tools-of-trade
+    name: Tools of Trade
+    laws:
+      - name: Tools of Trade - Primary Occupation
+        limit: $60,000
+        description: >-
+          <p>Colorado provides an exemption of up to $30,000 for tools of trade, stock in trade, fixtures, books, equipment, electronics, etc. actually used in the debtor's primary occupation. This exemption may not be used on the same vehicle as the <a href="#auto">motor vehicle exemption</a>. So, for instance, you work in construction and own a truck worth $19,500 free and clear (no loan on it). You can use this exemption on the truck, but all $12,000 counts against this exemption. You can't use the $15,000 motor vehicle exemption on the truck and then only count $4,500 against the Tools of Trade exemption.</p>
+        citations:
+          - C.R.S &sect; 13-54-102(1)(i)
+      - name: Tools of Trade - Secondary Occupation
+        limit: $20,000
+        description: >-
+          <p>Colorado provides an exemption of up to $10,000 for tools of trade, stock in trade, fixtures, books, equipment, electronics, etc. actually used in the debtor's secondary occupation. This exemption may not be used on the same vehicle as the <a href="#auto">motor vehicle exemption</a>. So, for instance, you work in construction and own a truck worth $12,000 free and clear (no loan on it). You can use this exemption on the truck, but all $12,000 counts against this exemption using it up and leaving $2,000 non-exempt. Unfortunately, you can't use the $7,500 motor vehicle exemption on the truck and to cover the $2,000 shortfall.</p>
+        citations:
+          - C.R.S &sect; 13-54-102(1)(i)
+      - name: Military Equipment
+        limit: Unlimited
+        description: >-
+          <p>Colorado provides a full exemption for military equipment personally owned by members of the National Guard. This is one of the few ways to apply an exemption to firearms in Colorado.</p>
+        citations:
+          - C.R.S &sect; 13-54-102(1)(h.5)
+      - name: Professional's Library
+        limit: $3,000
+        description: >-
+          <p>Colorado provides an exemption of $3,000 for the contents of a professional's library if the tool of trade exemption is not applied to the same property. This exemption would apply to things like an attorney's set of reporters or a medical doctor's reference books.</p>
+        citations:
+          - C.R.S &sect; 13-54-102(1)(k)
+      - name: Debtor's Interest in Partnership Property
+        limit: Unlimited
+        description: >-
+          <p>Partnerships are strange animals in the law. A person who is a true general partner in a true partnership assumes a lot of personal liability. Colorado law provides some protection against personal liability running from the partners to the partnership in the form of a full exemption for a partner's personal interest in property owned by a partnership. If this doesn't make sense to you, don't be surprised. It's complicated. If you think it might apply, ask an attorney to help you figure it out.</p>
+        citations:
+          - McCrimmon v. Linton, 4 Colo. App. 420, 36 P. 300 (1894)
+  - id: farm
+    name: Farm Property
+    laws:
+      - name: Animals and Livestock, Crops, Farm Equipment
+        limit: $50,000
+        description: >-
+          <p>Colorado provides an exemption of $50,000 for livestock, crops, seed and farm equipment owned by a debtor whose primary occupation is agriculture.</p>
+          <p>Joint debtors only get a total of $50,000 here, so doubling this exemption is not permitted just like it is not permitted for the homestead exemption.</p>
+        citations:
+          - C.R.S &sect; 13-54-102(1)(g)
+  - id: federal
+    name: Federal Non-Bankruptcy Exemptions
+    description: >-
+      <p>Federal law also provides a number of exemptions that a debtor may use in a bankruptcy case, but these exemptions aren't found in the bankruptcy code. Similar to the state exemptions, these exemptions may be used in non-bankruptcy collection cases as well. We list some of the most common here.</p>
+    laws:
+      - name: Military Service Survivor's Benefits
+        limit: Unlimited
+        description: >-
+          <p>Federal law exempts from levy or assignment pensions and annuities paid by the federal government to the survivors or deceased members of the military. This code section contains a few carve-outs to limit double-dipping.</p>
+        citations:
+          - <a class="text-primary" href="https://www.law.cornell.edu/uscode/text/10/1450" target="_blank">10 U.S.C. 1450(i)</a>
+      - name: Civil Service Employee's Retirement Benefits
+        limit: Unlimited
+        description: >-
+          <p>Federal law exempts from levy or assignment pensions and annuities paid by the federal government to retired civil service employees.</p>
+        citations:
+          - <a class="text-primary" href="https://www.law.cornell.edu/uscode/text/5/8346" target="_blank">5 U.S.C. 8346(a)</a>
+      - name: Social Security Benefits
+        limit: Unlimited
+        description: >-
+          <p>Federal law exempts from levy or assignment benefits paid under the Social Security Act.</p>
+        citations:
+          - <a class="text-primary" href="https://www.law.cornell.edu/uscode/text/42/407" target="_blank">42 U.S.C. 407(a)</a>
+      - name: Veterans' Benefits
+        limit: Unlimited
+        description: >-
+          <p>Federal law exempts from levy or assignment all veterans' benefits</p>
+          <p>The IRS gets to avoid this exemption for collection of taxes</p>
+        citations:
+          - <a class="text-primary" href="https://www.law.cornell.edu/uscode/text/38/5301" target="_blank">38 U.S.C. 5301(a)</a>
+      - name: Railroad Employee Pensions
+        limit: Unlimited
+        description: >-
+          <p>Federal law exempts from levy or assignment pensions paid or owed to railroad employees.</p>
+        citations:
+          - <a class="text-primary" href="https://www.law.cornell.edu/uscode/text/45/352" target="_blank">45 U.S.C. 352(e)</a>
+Sources:
+  - <a href="https://leg.colorado.gov/agencies/office-legislative-legal-services/2022-crs-titles-download" target="_blank">Colorado Revised Statutes</a> (unofficial, but more legible)</li>
+  - <a href="http://www.lexisnexis.com/hottopics/colorado/" target="_blank">Colorado Revised Statutes</a> (official but the site is wonky)</li>
+  - <a href="https://www.law.cornell.edu/uscode/text/" target="_blank">United States Code</a> (unofficial but far and away the most used and useful site to view federal law)</li>
+  - <a href="http://uscode.house.gov/" target="_blank">United States Code</a> (official and not as wonky as the Colorado official site)</li>
