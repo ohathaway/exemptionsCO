@@ -1,4 +1,4 @@
-name: NodeJS with Webpack
+name: Vue3 app build and deploy to S3
 
 on:
   push:
@@ -12,7 +12,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: 16.15.1
+        node-version: [14.x, 16.x, 18.x]
 
     steps:
     - uses: actions/checkout@v3
