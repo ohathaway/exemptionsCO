@@ -19,7 +19,7 @@ import ViewHeader from '@/views/ViewHeader'
 import ViewSources from '@/views/ViewSources'
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 @import './assets/scss/site.scss'
 
 </style>
