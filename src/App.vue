@@ -18,8 +18,3 @@ import ViewNav from '@/views/ViewNav'
 import ViewHeader from '@/views/ViewHeader'
 import ViewSources from '@/views/ViewSources'
 </script>
-
-<style lang="scss">
-@import './assets/scss/site.scss'
-
-</style>
