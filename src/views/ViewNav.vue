@@ -1,7 +1,6 @@
 <template>
   <nav
-    id="sideNav"
-    class="navbar navbar-expand-lg navbar-dark fixed-top"
+    class="side-nav navbar navbar-expand-lg navbar-dark fixed-top"
   >
     <a
       class="navbar-brand js-scroll-trigger"
