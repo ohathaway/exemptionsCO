@@ -12,9 +12,7 @@ body {
   // @include body-font;
   background: $gray-100;
   font-family: 'Open Sans', sans-serif;
-  margin-top: 60px;
   padding-top: 54px;
-  text-align: center;
 }
 
 @media (min-width: 992px) {
@@ -34,12 +32,6 @@ h6 {
   font-family: 'Saira Extra Condensed', serif;
   font-weight: 700;
   text-transform: uppercase;
-}
-
-h1 {
-  // font-size: 6rem;
-  // font-weight: 700;
-  // line-height: 5.5rem;
 }
 
 .subheading {
