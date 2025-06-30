@@ -1,54 +1,54 @@
 <template>
   <nav
-    class="side-nav navbar navbar-expand-lg navbar-dark fixed-top"
+    class="side-nav fixed top-0 left-0 z-50 h-screen w-64 lg:w-64 flex flex-col text-center text-white bg-yellow-400"
   >
     <a
-      class="navbar-brand js-scroll-trigger"
+      class="flex mx-auto mb-0 p-2 js-scroll-trigger"
       href="#page-top"
     >
-      <span class="d-block d-lg-none">CO Exemptions</span>
-      <span class="d-none d-lg-block">
+      <span class="block lg:hidden">CO Exemptions</span>
+      <span class="hidden lg:block">
         <img
-          class="img-fluid img-profile rounded-circle mx-auto mb-2"
+          class="max-w-full h-auto rounded-full mx-auto mb-2 max-h-40 max-w-40 border-4 border-white border-opacity-20"
           src="@/assets/img/colorado500.png"
           alt=""
         >
       </span>
     </a>
     <button
-      class="navbar-toggler"
+      class="lg:hidden p-2 text-gray-800"
       type="button"
-      data-toggle="collapse"
-      data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent"
-      aria-expanded="false"
+      @click="toggleNav"
       aria-label="Toggle navigation"
     >
-      <span class="navbar-toggler-icon" />
+      <span class="block w-6 h-0.5 bg-gray-800 mb-1" />
+      <span class="block w-6 h-0.5 bg-gray-800 mb-1" />
+      <span class="block w-6 h-0.5 bg-gray-800" />
     </button>
     <div
       id="navbarSupportedContent"
-      class="collapse navbar-collapse"
+      class="flex-grow-0 mb-auto w-full items-start"
+      :class="{ 'hidden': !isNavOpen, 'lg:flex': true }"
     >
-      <ul class="navbar-nav">
-        <li class="nav-item">
+      <ul class="flex flex-col w-full">
+        <li class="block">
           <a
-            class="nav-link js-scroll-trigger"
+            class="block font-semibold uppercase text-blue-900 hover:text-blue-700 js-scroll-trigger"
             href="#about"
           >About</a>
         </li>
         <li
           v-for="section in sections"
-          class="nav-item"
+          class="block"
         >
           <a
-            class="nav-link js-scroll-trigger"
+            class="block font-semibold uppercase text-blue-900 hover:text-blue-700 js-scroll-trigger"
             :href="'#' + section.id"
           >{{ section.name }}</a>
         </li>
-        <li class="nav-item">
+        <li class="block">
           <a
-            class="nav-link js-scroll-trigger"
+            class="block font-semibold uppercase text-blue-900 hover:text-blue-700 js-scroll-trigger"
             href="#sources"
           >Sources
           </a>
@@ -59,13 +59,16 @@
 </template>
 
 <script setup>
+import { ref } from 'vue'
+
 defineProps({
   sections: Array
 })
+
+const isNavOpen = ref(false)
+
+const toggleNav = () => {
+  isNavOpen.value = !isNavOpen.value
+}
 </script>
 
-<style lang="scss">
-nav {
-  background: $yellow-co
-}
-</style>

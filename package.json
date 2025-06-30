@@ -3,31 +3,33 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "serve": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
     "@fortawesome/free-solid-svg-icons": "^6.2.0",
     "@fortawesome/vue-fontawesome": "^3.0.2",
-    "bootstrap": "^5.2.2",
+    "@tailwindcss/vite": "^4.1.11",
     "core-js": "^3.8.3",
     "he": "^1.2.0",
+    "tailwindcss": "^4.1.11",
     "vue": "^3.2.13"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
     "@babel/eslint-parser": "^7.12.16",
+    "@vitejs/plugin-vue": "^6.0.0",
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-eslint": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3",
+    "js-yaml": "^4.1.0",
     "json-loader": "^0.5.7",
-    "node-sass": "^7.0.3",
-    "sass": "^1.56.0",
-    "sass-loader": "^13.1.0",
+    "vite": "^7.0.0",
     "yaml-loader": "^0.8.0"
   },
   "eslintConfig": {

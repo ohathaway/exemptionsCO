@@ -1,6 +1,6 @@
 <template>
   <ViewNav :sections="coData.Sections" />
-  <div class="container-fluid p-0">
+  <div class="w-full p-0">
     <ViewHeader :updated="coData.Updated" />
     <!-- eslint-disable vue/valid-v-for -->
     <ExemptSection
@@ -13,8 +13,8 @@
 
 <script setup>
 import coData from './data.yaml'
-import ExemptSection from '@/components/ExemptSection'
-import ViewNav from '@/views/ViewNav'
-import ViewHeader from '@/views/ViewHeader'
-import ViewSources from '@/views/ViewSources'
+import ExemptSection from '@/components/ExemptSection.vue'
+import ViewNav from '@/views/ViewNav.vue'
+import ViewHeader from '@/views/ViewHeader.vue'
+import ViewSources from '@/views/ViewSources.vue'
 </script>

@@ -1,20 +1,20 @@
 <template>
   <header
     id="about"
-    class="exemptions-section p-3 p-lg-5 d-flex d-column"
+    class="exemptions-section p-3 lg:p-20 flex flex-col border-b border-gray-400"
   >
-    <div class="my-auto">
-      <h1 class="mb-0">
+    <div class="m-auto">
+      <h1 class="mb-0 font-bold text-gray-800 font-sans uppercase">
         Bankruptcy Exemptions<br>
         <span class="state-name">Colorado</span>
       </h1>
-      <div class="subheading mb-5">
+      <div class="text-gray-600 font-sans text-xl font-medium uppercase mb-5">
         an informational resource provided by <a
           href="https://ohlawacolorado.com/"
           target="_blank"
         >The Law Offices of Owen Hathaway</a> &bull; <a href="tel:+1-970-818-3052">970-818-3052</a>
       </div>
-      <div class="subheading mb-5 font-italic">
+      <div class="text-gray-600 font-sans text-xl font-medium uppercase mb-5 italic">
         Information current as of {{ updated }}
       </div>
 
@@ -43,7 +43,3 @@ defineProps({
 })
 </script>
 
-<style lang="scss">
-header { border-bottom: 1px solid $gray-500; }
-h1 { font-weight: 700; }
-</style>

@@ -2,7 +2,7 @@
   <li>
     <font-awesome-icon
       icon="fa-solid fa-scale-balanced"
-      class="primary"
+      class="text-blue-900"
     />
     &nbsp;&nbsp;<span v-html="source" />
   </li>

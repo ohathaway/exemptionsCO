@@ -1,9 +1,9 @@
 <template>
   <section
     :id="section.id"
-    class="exemptions-section p-3 p-lg-5 d-flex flex-column mb-auto"
+    class="exemptions-section p-3 lg:p-20 flex flex-col mb-auto border-b border-gray-300 pb-20 pt-20"
   >
-    <h2 class="mb-5">
+    <h2 class="mb-5 text-5xl font-bold text-gray-800 font-sans uppercase">
       {{ section.name }}
     </h2>
     <div
@@ -18,16 +18,10 @@
 </template>
 
 <script setup>
-import ExemptLaw from './ExemptLaw'
+import ExemptLaw from './ExemptLaw.vue'
 
 defineProps({
   section: Object
 })
 </script>
 
-<style lang="scss">
-h2 {
-  font-size: 3.5rem;
-  font-weight: 700;
-}
-</style>
