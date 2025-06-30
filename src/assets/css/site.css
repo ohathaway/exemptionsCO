@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 @font-face {
   font-family: 'Open Sans';
   src: url('@/assets/fonts/OpenSans-Regular.ttf');
@@ -13,9 +15,9 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1024px) {
   body {
-    padding-left: 17rem;
+    padding-left: 16rem;
     padding-top: 0;
   }
 }
@@ -45,15 +47,7 @@ h6 {
   text-transform: uppercase;
 }
 
-section .exemptions-section {
-  border-bottom: 1px solid #dee2e6;
-  padding-bottom: 5rem !important;
-  padding-top: 5rem !important;
-}
-
-section .exemptions-section .exemptions-item .exemptions-date {
-  min-width: none;
-}
+/* Exemptions section styles moved to Tailwind classes */
 
 .bg-primary {
   background-color: #fff22d !important;
@@ -89,70 +83,8 @@ a:active {
   color: #33348e;
 }
 
-@media (min-width: 992px) {
-  .side-nav {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    left: 0;
-    position: fixed;
-    text-align: center;
-    top: 0;
-    width: 17rem;
-  }
+/* Side nav styles moved to Tailwind classes */
 
-  .side-nav .navbar-brand {
-    display: flex;
-    margin: auto auto 0;
-    padding: .5rem;
-  }
+/* Section styles moved to Tailwind classes */
 
-  .side-nav .navbar-brand .img-profile {
-    border: .5rem solid rgba(255, 255, 255, .2);
-    max-height: 10rem;
-    max-width: 10rem;
-  }
-
-  .side-nav .navbar-collapse {
-    align-items: flex-start;
-    display: flex;
-    flex-grow: 0;
-    margin-bottom: auto;
-    width: 100%;
-  }
-
-  .side-nav .navbar-collapse .navbar-nav {
-    flex-direction: column;
-    width: 100%;
-  }
-
-  .side-nav .navbar-collapse .navbar-nav .nav-item {
-    display: block;
-  }
-
-  .side-nav .navbar-collapse .navbar-nav .nav-item .nav-link {
-    display: block;
-  }
-}
-
-@media (min-width: 768px) {
-  section .exemptions-section {
-    min-height: 100vh;
-  }
-
-  section .exemptions-section .exemptions-item .exemptions-date {
-    min-width: 18rem;
-  }
-}
-
-nav {
-  background: #fff22d;
-}
-
-header {
-  border-bottom: 1px solid #adb5bd;
-}
-
-h1 {
-  font-weight: 700;
-}
+/* Nav and header styles moved to Tailwind classes */

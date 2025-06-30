@@ -1,9 +1,9 @@
 <template>
   <section
     :id="section.id"
-    class="exemptions-section p-3 lg:p-20 flex flex-col mb-auto border-b border-gray-300 pb-20 pt-20"
+    class="exemptions-section p-3 lg:p-20 flex flex-col mb-auto border-b border-gray-300 pb-20 pt-20 min-h-screen md:min-h-screen"
   >
-    <h2 class="mb-5 text-5xl font-bold text-gray-800 font-sans uppercase">
+    <h2 class="mb-5 text-3xl lg:text-5xl font-bold text-gray-800 font-sans uppercase">
       {{ section.name }}
     </h2>
     <div
